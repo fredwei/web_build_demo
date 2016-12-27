@@ -24,6 +24,7 @@
     "gulp-rename": "^1.2.2",
     "gulp-sass": "^3.0.0",
     "gulp-util": "^3.0.7",
+    "gulp-watch": "^4.3.11",
     "gulp-webp": "^2.3.0",
     "os": "^0.1.1",
     "run-sequence": "^1.2.2",

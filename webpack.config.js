@@ -52,12 +52,6 @@ module.exports = {
     },
     plugins: [
         // 将公共代码抽离出来合并为一个文件
-        new CommonsChunkPlugin('common.js'),
-        // js文件的压缩
-        new uglifyJsPlugin({
-            compress: {
-                warnings: false
-            }
-        })
+        new CommonsChunkPlugin('common.js')
     ]
 };
