@@ -1,0 +1,16 @@
+img{
+	display: block;
+	margin-bottom: 30px;
+	margin-top: 50px;
+}
+
+.sp{
+	width: 174px;
+	height: 98px;
+	margin: 10px 0;
+	background: url(../../images/01.png) 0px 0px no-repeat;
+
+	box-shadow: 2px 6px 8px #333;
+
+	transition: width .3s;
+}

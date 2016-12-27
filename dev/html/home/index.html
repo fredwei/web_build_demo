@@ -1,0 +1,25 @@
+@@include('../../components/common/head.inc')
+<link rel="stylesheet" href="/css/home/home.css">
+
+</head>
+<body>
+
+@@include('../../components/common/nav.inc', {
+	"nav": "index"
+})
+
+<div id="main" class="main">
+	<h1>今天天气很好，心情很愉快</h1>
+	<div class="sp"></div>
+	<div id="output">
+		<img src="/images/common/logo.png" alt="">
+		<img src="/images/01.png" alt="">
+		<img src="/webp/02.webp" alt="">
+	</div>
+</div>
+
+<script src="//lib.baomitu.com/jquery/3.1.1/jquery.min.js"></script>
+<script src="/js/common.js"></script>
+<script src="/js/home.js"></script>
+
+@@include('../../components/common/foot.inc')
